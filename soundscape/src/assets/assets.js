@@ -120,7 +120,7 @@ export const songsData = [
         name: "Song One",
         image: img1,
         file:song1,
-        desc:"Put a smile on your face with these happy tunes",
+        desc:"Put a smile on your face",
         duration:"3:00"
     },
     {

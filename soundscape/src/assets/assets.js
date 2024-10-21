@@ -119,25 +119,25 @@ export const songsData = [
         id:0,
         name: "Song One",
         image: img1,
-        file:song1,
+        file: song1,
         desc:"Put a smile on your face",
-        duration:"3:00"
+        duration:"3:28"
     },
     {
         id:1,
         name: "Song Two",
         image: img2,
-        file:song2,
+        file: song2,
         desc:"Put a smile on your face with these happy tunes",
-        duration:"2:20"
+        duration:"3:58"
     },
     {
         id:2,
         name: "Song Three",
         image: img3,
-        file:song3,
+        file: song3,
         desc:"Put a smile on your face with these happy tunes",
-        duration:"2:32"
+        duration:"3.28"
     },
     {
         id:3,

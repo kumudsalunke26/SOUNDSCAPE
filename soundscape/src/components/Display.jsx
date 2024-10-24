@@ -22,7 +22,7 @@ const Display = () => {
   }
   )
   return (
-    <div ref={displayRef} className='w-[100%] m-2 px-6 py-4 rounded bg-black text-white overflow-auto lg:w-[75%] lg:ml-0'>
+    <div ref={displayRef} className='w-[100%] mt-4 px-6 py-6 rounded overflow-auto lg:w-[75%] lg:ml-0'>
       <Routes>
         <Route path='/' element={<DisplayHome />} />
         <Route path='/album/:id' element={<DisplayAlbum />} />

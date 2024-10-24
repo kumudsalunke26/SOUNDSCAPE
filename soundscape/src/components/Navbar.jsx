@@ -18,10 +18,11 @@ const Navbar = () => {
             <p className='bg-green-700 rounded-full flex items-center font-semibold px-4 py-1 text-[17px]'>K</p>
         </div>
       </div>
+      
       <div className='flex items-center gap-2 mt-4'>
             <p className='px-4 py-1 rounded-3xl bg-white text-[17px] cursor-pointer text-zinc-600 font-semibold'>All</p>
             <p className='px-4 py-1 rounded-3xl text-[17px] cursor-pointer bg-purple-900 text-white'>Music</p>
-            <p className='px-4 py-1 rounded-3xl text-[17px] cursor-pointer bg-purple-900 text-white'>Podcasts</p>
+            
         </div>
     </>
   )

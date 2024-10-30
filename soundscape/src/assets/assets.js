@@ -1,4 +1,10 @@
 import bell_icon from './bell.png'
+import logo1_icon from './logo1.png'
+import logo2_icon from './logo2.png'
+import logo3_icon from './logo3.png'
+import logo4_icon from './logo4.png'
+import logo5_icon from './logo5.png'
+import logo_icon from './logo.png'
 import home_icon from './home.png'
 import like_icon from './like.png'
 import loop_icon from './loop.png'
@@ -66,7 +72,13 @@ export const assets = {
     arrow_left,
     arrow_right,
     spotify_logo,
-    clock_icon
+    clock_icon,
+    logo_icon,
+    logo1_icon,
+    logo2_icon,
+    logo3_icon,
+    logo4_icon,
+    logo5_icon   
 }
 
 export const albumsData = [
@@ -111,6 +123,20 @@ export const albumsData = [
         image: img15,
         desc:"Your weekly update of the most played tracks",
         bgColor:"#744210"
+    },
+    {   
+        id:6,
+        name: "Top 50 Global",
+        image: img8,
+        desc:"Your weekly update of the most played tracks",
+        bgColor:"#2a4365"
+    },
+    {   
+        id:7,
+        name: "Top 50 Global",
+        image: img8,
+        desc:"Your weekly update of the most played tracks",
+        bgColor:"#2a4365"
     }
 ]
 
@@ -180,3 +206,54 @@ export const songsData = [
         duration:"2:35"
     }
 ]
+
+// export const BSongs = [
+//     {
+//         id:0,
+//         name: "The Humma Song",
+//         image: img1,
+//         file: song1,
+//         desc:"Put a smile on your face",
+//         duration:"2:59"
+//     },
+//     {
+//         id:1,
+//         name: "Party On My Mind",
+//         image: img2,
+//         file: song2,
+//         desc:"Put a smile on your face with these happy tunes",
+//         duration:"3:42"
+//     },
+//     {
+//         id:2,
+//         name: "Locha e ulfat",
+//         image: img2,
+//         file: song2,
+//         desc:"Put a smile on your face with these happy tunes",
+//         duration:"4:48"
+//     },
+//     {
+//         id:3,
+//         name: "Mann mera",
+//         image: img2,
+//         file: song2,
+//         desc:"Put a smile on your face with these happy tunes",
+//         duration:"3:20"
+//     },
+//     {
+//         id:4,
+//         name: "Kun faya kun",
+//         image: img2,
+//         file: song2,
+//         desc:"Put a smile on your face with these happy tunes",
+//         duration:"7:53"
+//     },
+//     {
+//         id:5,
+//         name: "Dil toh baccha hai ji",
+//         image: img2,
+//         file: song2,
+//         desc:"Put a smile on your face with these happy tunes",
+//         duration:"5:36"
+//     }
+// ]

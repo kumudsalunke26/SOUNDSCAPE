@@ -47,6 +47,7 @@ import img16 from './img16.jpg'
 import song1 from  './song1.mp3'
 import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
+import TheHummasong from './The Humma Song.mp3'
 
 export const assets = {
     bell_icon,
@@ -204,56 +205,54 @@ export const songsData = [
         file:song2,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:35"
+    },
+    {
+        id:8,
+        name: "The Humma Song",
+        image: img1,
+        file: TheHummasong,
+        desc:"Put a smile on your face",
+        duration:"2:59"
+    },
+    {
+        id:9,
+        name: "Party On My Mind",
+        image: img2,
+        file: song2,
+        desc:"Put a smile on your face with these happy tunes",
+        duration:"3:42"
+    },
+    {
+        id:10,
+        name: "Locha e ulfat",
+        image: img2,
+        file: song2,
+        desc:"Put a smile on your face with these happy tunes",
+        duration:"4:48"
+    },
+    {
+        id:11,
+        name: "Mann mera",
+        image: img2,
+        file: song2,
+        desc:"Put a smile on your face with these happy tunes",
+        duration:"3:20"
+    },
+    {
+        id:12,
+        name: "Kun faya kun",
+        image: img2,
+        file: song2,
+        desc:"Put a smile on your face with these happy tunes",
+        duration:"7:53"
+    },
+    {
+        id:13,
+        name: "Dil toh baccha hai ji",
+        image: img2,
+        file: song2,
+        desc:"Put a smile on your face with these happy tunes",
+        duration:"5:36"
     }
 ]
 
-// export const BSongs = [
-//     {
-//         id:0,
-//         name: "The Humma Song",
-//         image: img1,
-//         file: song1,
-//         desc:"Put a smile on your face",
-//         duration:"2:59"
-//     },
-//     {
-//         id:1,
-//         name: "Party On My Mind",
-//         image: img2,
-//         file: song2,
-//         desc:"Put a smile on your face with these happy tunes",
-//         duration:"3:42"
-//     },
-//     {
-//         id:2,
-//         name: "Locha e ulfat",
-//         image: img2,
-//         file: song2,
-//         desc:"Put a smile on your face with these happy tunes",
-//         duration:"4:48"
-//     },
-//     {
-//         id:3,
-//         name: "Mann mera",
-//         image: img2,
-//         file: song2,
-//         desc:"Put a smile on your face with these happy tunes",
-//         duration:"3:20"
-//     },
-//     {
-//         id:4,
-//         name: "Kun faya kun",
-//         image: img2,
-//         file: song2,
-//         desc:"Put a smile on your face with these happy tunes",
-//         duration:"7:53"
-//     },
-//     {
-//         id:5,
-//         name: "Dil toh baccha hai ji",
-//         image: img2,
-//         file: song2,
-//         desc:"Put a smile on your face with these happy tunes",
-//         duration:"5:36"
-//     }
-// ]

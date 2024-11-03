@@ -45,7 +45,7 @@ const selectedSong=songsData.find((song)=>song.id===selectedSongId);
             defaultValue=""
             className="border p-2 rounded w-full text-black"
           >
-            <option value="" disabled>
+            <option value=" disabled overflow-auto scroll " >
               Choose a song
             </option>
             {songsData.map((song) => (
@@ -56,7 +56,7 @@ const selectedSong=songsData.find((song)=>song.id===selectedSongId);
           </select>
           <button
             onClick={handleAddSong}
-            className="bg-blue-500 hover:bg-blue-600 text-white font-semibold px-4 py-2 rounded"
+            className="bg-blue-500 hover:bg-blue-600 text-white font-semibold px-4 flex items-center rounded-2xl h-11"
           >
             Add to Playlist
           </button>
@@ -72,7 +72,7 @@ const selectedSong=songsData.find((song)=>song.id===selectedSongId);
             </span>
             <button
               onClick={() => handleRemoveSong(song.id)} // Remove song on click
-              className="bg-red-500 hover:bg-red-600 text-white font-semibold px-2 py-1 rounded ml-4"
+              className="bg-red-500 hover:bg-red-600 text-white font-semibold px-2 py-1 rounded-3xl ml-4"
             >
               Remove
             </button>

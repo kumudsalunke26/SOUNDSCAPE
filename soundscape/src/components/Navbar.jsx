@@ -46,13 +46,12 @@ const Navbar = () => {
         <div onClick={() => navigate('/')} className='flex items-center gap-3 pl-1 cursor-pointer grid-rows-2'>
           <img onClick={() => navigate(-1)} className='w-8 gap-5 bg-purple-900 p-2 rounded-2xl cursor-pointer ' src={assets.arrow_left} />
           <img onClick={() => navigate(1)} className='w-8 gap-10 bg-purple-900 p-2 rounded-2xl cursor-pointer ' src={assets.arrow_right} />
-          <img className='w-8' src={assets.home_icon} alt="" />
-          <p className='font-bold'>Home</p>
+         
         </div>
 
 <SearchBar/>
         <div className='flex items-center gap-4 '>
-          <button onClick={() => (navigate('/playlist'))} className=' bg-purple-900 h-10 w-48 pb-1 pt-1 text-[18px] text-black rounded-full mt-2'>Create Playlist</button>
+          
           <p className='bg-red-700 text-black rounded-full mt-2 flex items-center justify-center h-12 w-14'>KS</p>
         </div>
       </div>

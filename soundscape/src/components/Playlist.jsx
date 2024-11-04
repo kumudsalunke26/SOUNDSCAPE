@@ -43,7 +43,7 @@ const selectedSong=songsData.find((song)=>song.id===selectedSongId);
             }
             ref={inputRef}
             defaultValue=""
-            className="border p-2 rounded w-full text-black"
+            className="border p-2 rounded w-full text-black bg-purple-700"
           >
             <option value=" disabled overflow-auto scroll " >
               Choose a song

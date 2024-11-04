@@ -68,7 +68,7 @@ const SearchBar = () => {
             <div
               key={index}
               onClick={() => handleSongSelect(song)}
-              className='px-4 py-2 hover:bg-purple-800 cursor-pointer'
+              className='px-4 py-2 hover:bg-purple-800 cursor-pointer bg-'
             >
               {song.name}
             </div>

@@ -38,15 +38,15 @@ const DisplayHome = () => {
     <>
       <Navbar />
       <div className='mb-4'>
-        <h1 className='my-5 font-bold text-2xl text-purple-900 text-[30px]'>Featured Charts</h1>
+        <h1 className='my-5 font-bold text-2xl text-white text-[30px]'>Featured Charts</h1>
         <div className='overflow-auto grid grid-cols-4'>
         {albumsData.map((item,index)=>(<AlbumItem key={index} name={item.name} desc={item.desc} id={item.id} image={item.image}/>))}
         </div>
       </div>
       <hr className='bg-purple-900'/>
       <div className='mb-4'>
-        <h1 className='my-5 font-bold text-2xl text-purple-900 text-[30px]'>Biggest Hits</h1>
-        <div className='overflow-auto grid grid-cols-4'>
+        <h1 className='my-5 font-bold text-2xl text-white text-[30px]'>Biggest Hits</h1>
+        <div className='overflow-auto grid grid-cols-7'>
         {songsData.map((item,index)=>(<SongItems key={index} name={item.name} desc={item.desc} id={item.id} image={item.image}/>))}
       
         </div>

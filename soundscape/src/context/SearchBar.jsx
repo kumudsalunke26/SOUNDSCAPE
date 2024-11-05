@@ -59,16 +59,16 @@ const SearchBar = () => {
           filterSongs(input);
           setIsDropdownVisible(true);
         }}
-        className='bg-white text-purple-950 w-[48rem] h-11 pl-6 rounded-3xl px-3 placeholder:text-slate-600 font-bold outline-none'
+        className='bg-white text-slate-800 w-[48rem] h-11 pl-6 rounded-3xl px-3 placeholder:text-slate-800 font-bold outline-none'
       />
 
       {isDropdownVisible && filteredSongs.length > 0 && (
-        <div ref={dropdownRef} className='absolute bg-purple-950 border text-white rounded-b-2xl mt-1 w-[48rem] max-h-40 overflow-y-auto'>
+        <div ref={dropdownRef} className='absolute bg-black border text-white rounded-b-2xl mt-1 w-[48rem] max-h-40 overflow-y-auto'>
           {filteredSongs.map((song, index) => (
             <div
               key={index}
               onClick={() => handleSongSelect(song)}
-              className='px-4 py-2 hover:bg-purple-800 cursor-pointer bg-'
+              className='px-4 py-2 hover:bg-zinc-800 cursor-pointer bg-'
             >
               {song.name}
             </div>

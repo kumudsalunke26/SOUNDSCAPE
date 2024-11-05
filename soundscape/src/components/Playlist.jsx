@@ -30,7 +30,7 @@ const selectedSong=songsData.find((song)=>song.id===selectedSongId);
   };
 
   return (
-    <div className="p-6 bg-purple-950 rounded-lg">
+    <div className="p-6 bg-slate-900 rounded-lg">
       <h2 className="text-2xl font-semibold mb-4 text-white">My Playlist</h2>
 
       <div className="mb-4">
@@ -43,7 +43,7 @@ const selectedSong=songsData.find((song)=>song.id===selectedSongId);
             }
             ref={inputRef}
             defaultValue=""
-            className="border p-2 rounded w-full text-black bg-purple-700"
+            className="border p-2 rounded w-full text-white bg-slate-700"
           >
             <option value=" disabled overflow-auto scroll " >
               Choose a song
@@ -56,7 +56,7 @@ const selectedSong=songsData.find((song)=>song.id===selectedSongId);
           </select>
           <button
             onClick={handleAddSong}
-            className="bg-blue-500 hover:bg-blue-600 text-white font-semibold px-4 flex items-center rounded-2xl h-11"
+            className="bg-slate-600 hover:bg-slate-800 text-white font-semibold px-4 flex items-center rounded-2xl h-11"
           >
             Add to Playlist
           </button>

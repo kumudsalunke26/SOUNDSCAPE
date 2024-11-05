@@ -28,6 +28,8 @@ import arrow_right from './right_arrow.png'
 import arrow_left from './left_arrow.png'
 import spotify_logo from './spotify_logo.png'
 import clock_icon from './clock_icon.png'
+import ss from './ss.png'
+import img from './img.jpeg'
 import img1 from './img1.jpg'
 import img2 from './img2.jpg'
 import img3 from './img3.jpg'
@@ -80,7 +82,9 @@ export const assets = {
     logo2_icon,
     logo3_icon,
     logo4_icon,
-    logo5_icon   
+    logo5_icon,
+    img,
+    ss
 }
 
 export const albumsData = [

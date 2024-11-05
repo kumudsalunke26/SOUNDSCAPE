@@ -44,8 +44,8 @@ const Navbar = () => {
     <>
       <div className='w-full flex justify-between items-centerfont-semibold'>
         <div onClick={() => navigate('/')} className='flex items-center gap-3 pl-1 cursor-pointer grid-rows-2'>
-          <img onClick={() => navigate(-1)} className='w-8 gap-5 bg-purple-900 p-2 rounded-2xl cursor-pointer ' src={assets.arrow_left} />
-          <img onClick={() => navigate(1)} className='w-8 gap-10 bg-purple-900 p-2 rounded-2xl cursor-pointer ' src={assets.arrow_right} />
+          <img onClick={() => navigate(-1)} className='w-8 gap-5 bg-black p-2 rounded-2xl cursor-pointer ' src={assets.arrow_left} />
+          <img onClick={() => navigate(1)} className='w-8 gap-10 bg-black p-2 rounded-2xl cursor-pointer ' src={assets.arrow_right} />
          
         </div>
 
@@ -56,8 +56,8 @@ const Navbar = () => {
         </div>
       </div>
       <div className='flex items-center gap-2 mt-4'>
-        <p className='bg-white text-black px-4 py-1 rounded-2xl cursor-pointer'>All</p>
-        <p className=' px-4 py-1 rounded-2xl cursor-pointer bg-purple-900'>Music</p>
+        <p className='bg-black text-white px-4 py-1 rounded-2xl cursor-pointer'>All</p>
+        <p className=' px-4 py-1 rounded-2xl cursor-pointer bg-black text-white'>Music</p>
 
       </div>
     </>

@@ -20,7 +20,7 @@ const Display = () => {
   }
   else
   {
-     display.current.style.background=`#121212`
+     display.current.style.background=`linear-gradient(${bgColor},black)`
   }
  })
   return (

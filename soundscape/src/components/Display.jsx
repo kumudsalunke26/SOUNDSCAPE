@@ -6,6 +6,7 @@ import DisplayHome from './DisplayHome'
 import DisplayAlbum from './DisplayAlbum'
 import { albumsData } from '../assets/assets'
 import Playlist from './Playlist'
+import Music from './Music'
 
 const Display = () => {
   const display=useRef();
@@ -29,6 +30,7 @@ const Display = () => {
         <Route path='/' element={<DisplayHome/>}></Route>
         <Route path='/album/:id' element={<DisplayAlbum/>}></Route>
         <Route path='/playlist' element={<Playlist/>}/>
+        <Route path='/music' element={<Music/>}/>
       </Routes>
     </div>
   )

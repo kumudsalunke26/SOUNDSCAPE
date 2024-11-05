@@ -57,7 +57,7 @@ const Navbar = () => {
       </div>
       <div className='flex items-center gap-2 mt-4'>
         <p className='bg-black text-white px-4 py-1 rounded-2xl cursor-pointer'>All</p>
-        <p className=' px-4 py-1 rounded-2xl cursor-pointer bg-black text-white'>Music</p>
+        <p onClick={()=>navigate('/music')} className=' px-4 py-1 rounded-2xl cursor-pointer bg-black text-white'>Music</p>
 
       </div>
     </>

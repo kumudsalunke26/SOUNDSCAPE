@@ -51,7 +51,7 @@ import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
 import TheHummasong from './The Humma Song.mp3'
 import MannMera from './Mann Mera.mp3'
-
+import Partyonmymind from './Party on my mind.mp3'
 export const assets = {
     bell_icon,
     home_icon,
@@ -147,72 +147,72 @@ export const albumsData = [
 ]
 
 export const songsData = [
+    // {
+    //     id:0,
+    //     name: "Song One",
+    //     image: img1,
+    //     file: song1,
+    //     desc:"Put a smile on your face",
+    //     duration:"3:28"
+    // },
+    // {
+    //     id:1,
+    //     name: "Song Two",
+    //     image: img2,
+    //     file: song2,
+    //     desc:"Put a smile on your face with these happy tunes",
+    //     duration:"3:58"
+    // },
+    // {
+    //     id:2,
+    //     name: "Song Three",
+    //     image: img3,
+    //     file: song3,
+    //     desc:"Put a smile on your face with these happy tunes",
+    //     duration:"3.28"
+    // },
+    // {
+    //     id:3,
+    //     name: "Song Four",
+    //     image: img4,
+    //     file:song1,
+    //     desc:"Put a smile on your face with these happy tunes",
+    //     duration:"2:50"
+    // },
+    // {
+    //     id:4,
+    //     name: "Song Five",
+    //     image: img5,
+    //     file:song2,
+    //     desc:"Put a smile on your face with these happy tunes",
+    //     duration:"3:10"
+    // },
+    // {
+    //     id:5,
+    //     name: "Song Six",
+    //     image: img14    ,
+    //     file:song3,
+    //     desc:"Put a smile on your face with these happy tunes",
+    //     duration:"2:45"
+    // },
+    // {
+    //     id:6,
+    //     name: "Song Seven",
+    //     image: img7,
+    //     file:song1,
+    //     desc:"Put a smile on your face with these happy tunes",
+    //     duration:"2:18"
+    // },
+    // {
+    //     id:7,
+    //     name: "Song Eight",
+    //     image: img12,
+    //     file:song2,
+    //     desc:"Put a smile on your face with these happy tunes",
+    //     duration:"2:35"
+    // },
     {
         id:0,
-        name: "Song One",
-        image: img1,
-        file: song1,
-        desc:"Put a smile on your face",
-        duration:"3:28"
-    },
-    {
-        id:1,
-        name: "Song Two",
-        image: img2,
-        file: song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"3:58"
-    },
-    {
-        id:2,
-        name: "Song Three",
-        image: img3,
-        file: song3,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"3.28"
-    },
-    {
-        id:3,
-        name: "Song Four",
-        image: img4,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:50"
-    },
-    {
-        id:4,
-        name: "Song Five",
-        image: img5,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"3:10"
-    },
-    {
-        id:5,
-        name: "Song Six",
-        image: img14    ,
-        file:song3,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:45"
-    },
-    {
-        id:6,
-        name: "Song Seven",
-        image: img7,
-        file:song1,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:18"
-    },
-    {
-        id:7,
-        name: "Song Eight",
-        image: img12,
-        file:song2,
-        desc:"Put a smile on your face with these happy tunes",
-        duration:"2:35"
-    },
-    {
-        id:8,
         name: "The Humma Song",
         image: img1,
         file: TheHummasong,
@@ -220,15 +220,15 @@ export const songsData = [
         duration:"2:59"
     },
     {
-        id:9,
+        id:1,
         name: "Party On My Mind",
         image: img2,
-        file: song2,
+        file: Partyonmymind,
         desc:"Put a smile on your face with these happy tunes",
         duration:"3:42"
     },
     {
-        id:10,
+        id:2,
         name: "Locha e ulfat",
         image: img2,
         file: song2,
@@ -236,7 +236,7 @@ export const songsData = [
         duration:"4:48"
     },
     {
-        id:11,
+        id:3,
         name: "Mann mera",
         image: img2,
         file: MannMera,
@@ -244,7 +244,7 @@ export const songsData = [
         duration:"3:20"
     },
     {
-        id:12,
+        id:4,
         name: "Kun faya kun",
         image: img2,
         file: song2,
@@ -252,7 +252,7 @@ export const songsData = [
         duration:"7:53"
     },
     {
-        id:13,
+        id:5,
         name: "Dil toh baccha hai ji",
         image: img2,
         file: song2,

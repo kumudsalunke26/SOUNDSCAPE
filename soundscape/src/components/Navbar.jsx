@@ -52,7 +52,7 @@ const Navbar = () => {
 <SearchBar/>
         <div className='flex items-center gap-4 '>
           
-          <p className='bg-red-700 text-black rounded-full mt-2 flex items-center justify-center h-12 w-14'>KS</p>
+          <p className='bg-orange-600 text-black rounded-3xl mt-2 flex items-center font-semibold justify-center h-12 w-14'>KS</p>
         </div>
       </div>
       <div className='flex items-center gap-2 mt-4'>

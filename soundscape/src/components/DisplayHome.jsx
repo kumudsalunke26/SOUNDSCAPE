@@ -52,7 +52,7 @@ const DisplayHome = () => {
       </div>
       <hr className='bg-purple-900' />
       <div className='mb-4'>
-        <h1 className='my-5 font-bold text-2xl text-white text-[30px]'>Your Favourite Singers</h1>
+        <h1 className='my-5 font-bold text-2xl text-white text-[30px]'>Artists</h1>
         <div className='overflow-auto grid grid-cols-4'>
           <img className='rounded-full' src={assets.as}/>
           <img className='rounded-full' src={assets.sg}/>

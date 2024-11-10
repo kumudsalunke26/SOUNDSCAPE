@@ -52,6 +52,10 @@ import song3 from  './song3.mp3'
 import TheHummasong from './The Humma Song.mp3'
 import MannMera from './Mann Mera.mp3'
 import Partyonmymind from './Party on my mind.mp3'
+import as from './as.jpeg'
+import sg from './sg.jpeg'
+import nk from './nk.jpeg'
+
 export const assets = {
     bell_icon,
     home_icon,
@@ -84,7 +88,10 @@ export const assets = {
     logo4_icon,
     logo5_icon,
     img,
-    ss
+    ss,
+    as,
+    sg,
+    nk
 }
 
 export const albumsData = [
